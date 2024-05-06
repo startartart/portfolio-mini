@@ -3,9 +3,128 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/03503713ac.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portfolio-mini</title>
   </head>
-  <body>
-    <h1>Init.</h1>
+  <body id="main">
+    <div class="header-layout">
+      <div class="header-box">
+        <h1>Simple Portfolio</h1>
+      </div>
+    </div>
+    <div class="main-layout">
+      <div class="main-branch">
+        <div class="sub-branch">
+          <div class="branch-right">
+            <div class="contents-leaf">
+              <a href="#content1">내용1</a>
+            </div>
+          </div>
+        </div>
+        <div class="sub-branch">
+          <div class="branch-left">
+            <div class="contents-leaf">
+              <a href="#content2">내용2</a>
+            </div>
+          </div>
+        </div>
+        <div class="sub-branch">
+          <div class="branch-right">
+            <div class="contents-leaf">
+              <a href="#content3">내용3</a>
+            </div>
+          </div>
+        </div>
+        <div class="sub-branch">
+          <div class="branch-left">
+            <div class="contents-leaf">
+              <a href="#content4">내용4</a>
+            </div>
+          </div>
+        </div>
+        <div class="sub-branch">
+          <div class="branch-right">
+            <div class="contents-leaf">
+              <a href="#content5">내용5</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contents 페이지 -->
+    <div class="contents-layout contents-right">
+      <section id="content1">
+        <a href="#main"><i class="fa-solid fa-house fa-2x"></i></a>
+        <h2>프로젝트 1</h2>
+        <p>내용 1</p>
+        <div class="right-box">
+          <a href="#content2"
+            ><i class="fa-solid fa-chevron-right fa-10x"></i
+          ></a>
+        </div>
+      </section>
+      <section id="content3">
+        <a href="#main"><i class="fa-solid fa-house fa-2x"></i></a>
+        <h2>프로젝트 3</h2>
+        <p>내용 3</p>
+        <div class="left-box">
+          <a href="#content2"
+            ><i class="fa-solid fa-chevron-left fa-10x"></i
+          ></a>
+        </div>
+        <div class="right-box">
+          <a href="#content4"
+            ><i class="fa-solid fa-chevron-right fa-10x"></i
+          ></a>
+        </div>
+      </section>
+      <section id="content5">
+        <a href="#main"><i class="fa-solid fa-house fa-2x"></i></a>
+        <h2>프로젝트 5</h2>
+        <p>내용 5</p>
+        <div class="left-box">
+          <a href="#content4"
+            ><i class="fa-solid fa-chevron-left fa-10x"></i
+          ></a>
+        </div>
+      </section>
+    </div>
+    <div class="contents-layout contents-left">
+      <section id="content2">
+        <a href="#main"><i class="fa-solid fa-house fa-2x"></i></a>
+        <h2>프로젝트 2</h2>
+        <p>내용 2</p>
+        <div class="left-box">
+          <a href="#content1"
+            ><i class="fa-solid fa-chevron-left fa-10x"></i
+          ></a>
+        </div>
+        <div class="right-box">
+          <a href="#content3"
+            ><i class="fa-solid fa-chevron-right fa-10x"></i
+          ></a>
+        </div>
+      </section>
+      <section id="content4">
+        <a href="#main"><i class="fa-solid fa-house fa-2x"></i></a>
+        <h2>프로젝트 4</h2>
+        <p>내용 4</p>
+        <div class="left-box">
+          <a href="#content3"
+            ><i class="fa-solid fa-chevron-left fa-10x"></i
+          ></a>
+        </div>
+        <div class="right-box">
+          <a href="#content5"
+            ><i class="fa-solid fa-chevron-right fa-10x"></i
+          ></a>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
