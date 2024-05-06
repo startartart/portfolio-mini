@@ -3,7 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Gowun+Dodum&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="text.css" />
     <script
       src="https://kit.fontawesome.com/03503713ac.js"
       crossorigin="anonymous"
@@ -11,93 +18,116 @@
     <title>Portfolio-mini</title>
   </head>
   <body id="main">
+    <!-- message -->
+    <div class="message">Not supported on mobile, only desktop.</div>
+
+    <!-- header -->
     <div class="header-layout">
       <div class="header-box">
         <h1>Simple Portfolio</h1>
       </div>
     </div>
+
+    <!-- main -->
     <div class="main-layout">
       <div class="main-branch">
+        <!-- branch 1 -->
         <div class="sub-branch">
           <div class="branch-right">
+            <p class="branch-text">저를 소개합니다.</p>
             <div class="contents-leaf">
-              <a href="#content1">내용1</a>
+              <a href="#content1">Profile</a>
             </div>
           </div>
         </div>
+
+        <!-- branch 2 -->
         <div class="sub-branch">
           <div class="branch-left">
+            <p class="branch-text">2020. 03 ~ 2023. 12 연구실 활동일지</p>
             <div class="contents-leaf">
-              <a href="#content2">내용2</a>
+              <a href="#content2">Project<br />IVIS Lab</a>
             </div>
           </div>
         </div>
+
+        <!-- branch 3 -->
         <div class="sub-branch">
           <div class="branch-right">
+            <p class="branch-text">온라인 보드게임 팀 프로젝트</p>
             <div class="contents-leaf">
-              <a href="#content3">내용3</a>
+              <a href="#content3">Project<br />Board Game</a>
             </div>
           </div>
         </div>
+
+        <!-- branch 4 -->
         <div class="sub-branch">
           <div class="branch-left">
+            <p class="branch-text">내 차 꾸미기 팀 프로젝트</p>
             <div class="contents-leaf">
-              <a href="#content4">내용4</a>
+              <a href="#content4">Project<br />MyCarMaster</a>
             </div>
           </div>
         </div>
+
+        <!-- branch 5 -->
         <div class="sub-branch">
           <div class="branch-right">
+            <p class="branch-text">내 블로그 만들기 프로젝트</p>
             <div class="contents-leaf">
-              <a href="#content5">내용5</a>
+              <a href="#content5">Project<br />ConBlog</a>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- contents 페이지 -->
-    <div class="contents-layout contents-right">
+    <!-- contents -->
+    <div class="contents-layout">
+      <!-- content 1 : Profile -->
       <section id="content1">
         <a href="#main"><i class="fa-solid fa-house fa-2x"></i></a>
-        <h2>프로젝트 1</h2>
-        <p>내용 1</p>
+        <h1 class="title">Profile</h1>
+        <p class="body-medium">
+          Languages :
+          <span class="badge-js body-small">JavaScript</span>
+          <span class="badge-ts body-small">TypeScript</span>
+          <span class="badge-cpp body-small">C++</span>
+        </p>
+        <p class="body-medium">
+          TechStack : <span class="badge-react body-small">ReactJS</span>
+          <span class="badge-next body-small">NextJS</span>
+          <span class="badge-node body-small">NodeJS</span>
+        </p>
+        <p class="body-medium">
+          Github :
+          <a href="https://github.com/startartart">Go!</a>
+        </p>
+        <p class="body-medium">
+          Blog :
+          <a href="https://conblog.site">Go!</a>
+        </p>
+        <hr />
+        <p>
+          안녕하세요! 프론트엔드 개발자(FE) 박병권입니다. 제 포트폴리오 사이트에
+          방문해주셔서 감사합니다.
+        </p>
+        <p>
+          제가 경험했던 프로젝트 중 가장 기억남는 프로젝트를 소개하려합니다!
+        </p>
+
         <div class="right-box">
           <a href="#content2"
             ><i class="fa-solid fa-chevron-right fa-10x"></i
           ></a>
         </div>
       </section>
-      <section id="content3">
-        <a href="#main"><i class="fa-solid fa-house fa-2x"></i></a>
-        <h2>프로젝트 3</h2>
-        <p>내용 3</p>
-        <div class="left-box">
-          <a href="#content2"
-            ><i class="fa-solid fa-chevron-left fa-10x"></i
-          ></a>
-        </div>
-        <div class="right-box">
-          <a href="#content4"
-            ><i class="fa-solid fa-chevron-right fa-10x"></i
-          ></a>
-        </div>
-      </section>
-      <section id="content5">
-        <a href="#main"><i class="fa-solid fa-house fa-2x"></i></a>
-        <h2>프로젝트 5</h2>
-        <p>내용 5</p>
-        <div class="left-box">
-          <a href="#content4"
-            ><i class="fa-solid fa-chevron-left fa-10x"></i
-          ></a>
-        </div>
-      </section>
-    </div>
-    <div class="contents-layout contents-left">
+
+      <!-- content 2 : Project - IVIS Lab -->
       <section id="content2">
         <a href="#main"><i class="fa-solid fa-house fa-2x"></i></a>
-        <h2>프로젝트 2</h2>
+        <h1>프로젝트 2</h1>
         <p>내용 2</p>
         <div class="left-box">
           <a href="#content1"
@@ -110,9 +140,28 @@
           ></a>
         </div>
       </section>
+
+      <!-- content 3 : Project - BoardGame -->
+      <section id="content3">
+        <a href="#main"><i class="fa-solid fa-house fa-2x"></i></a>
+        <h1>프로젝트 3</h1>
+        <p>내용 3</p>
+        <div class="left-box">
+          <a href="#content2"
+            ><i class="fa-solid fa-chevron-left fa-10x"></i
+          ></a>
+        </div>
+        <div class="right-box">
+          <a href="#content4"
+            ><i class="fa-solid fa-chevron-right fa-10x"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- content 4 : Project - MyCarMaster -->
       <section id="content4">
         <a href="#main"><i class="fa-solid fa-house fa-2x"></i></a>
-        <h2>프로젝트 4</h2>
+        <h1>프로젝트 4</h1>
         <p>내용 4</p>
         <div class="left-box">
           <a href="#content3"
@@ -122,6 +171,18 @@
         <div class="right-box">
           <a href="#content5"
             ><i class="fa-solid fa-chevron-right fa-10x"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- content 5 : Project - BlogProject -->
+      <section id="content5">
+        <a href="#main"><i class="fa-solid fa-house fa-2x"></i></a>
+        <h1>프로젝트 5</h1>
+        <p>내용 5</p>
+        <div class="left-box">
+          <a href="#content4"
+            ><i class="fa-solid fa-chevron-left fa-10x"></i
           ></a>
         </div>
       </section>
