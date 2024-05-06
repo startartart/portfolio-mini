@@ -1,0 +1,49 @@
+* {
+  font-family: 'Diphylleia', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title {
+  font-size: 48px;
+}
+
+.body-large {
+  font-size: 36px;
+}
+
+.body-medium {
+  font-size: 32px;
+}
+
+.body-small {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.badge-js {
+  background-color: #f0db4f;
+  color: #323330;
+}
+
+.badge-ts {
+  background-color: #007acc;
+  color: #ffffff;
+}
+
+.badge-cpp {
+  background-color: #5e97d0;
+  color: #ffffff;
+}
+
+.badge-react {
+  background-color: #61dbfb;
+}
+
+.badge-next {
+  background-color: #ffffff;
+}
+
+.badge-node {
+  background-color: #68a063;
+  color: #303030;
+}
