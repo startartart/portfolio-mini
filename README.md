@@ -5,4 +5,5 @@
 
 - HTML/CSS 만을 사용하여 구조 및 디자인할 것
 - Lighthouse score
-    ![image](./lighthouse.png)
+  
+  ![image](./lighthouse.png)
