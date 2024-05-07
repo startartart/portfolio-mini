@@ -20,6 +20,10 @@
   font-weight: 900;
 }
 
+.contents {
+  font-size: 20px;
+}
+
 .badge-js {
   background-color: #f0db4f;
   color: #323330;
@@ -46,4 +50,17 @@
 .badge-node {
   background-color: #68a063;
   color: #303030;
+}
+
+.badge-hot {
+  background-color: #f74242;
+  color: #ffffff;
+}
+
+.m-b-0 {
+  margin-bottom: 0;
+}
+
+.m-0 {
+  margin: 0;
 }

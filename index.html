@@ -19,14 +19,17 @@
   </head>
   <body id="main">
     <!-- message -->
-    <div class="message">Not supported on mobile, only desktop.</div>
+    <div class="message-left">
+      Inside this project, only HTML and CSS were used.
+    </div>
+    <div class="message-right">Not supported on mobile, only desktop.</div>
 
     <!-- header -->
-    <div class="header-layout">
+    <header class="header-layout">
       <div class="header-box">
         <h1>Simple Portfolio</h1>
       </div>
-    </div>
+    </header>
 
     <!-- main -->
     <div class="main-layout">
@@ -44,7 +47,7 @@
         <!-- branch 2 -->
         <div class="sub-branch">
           <div class="branch-left">
-            <p class="branch-text">2020. 03 ~ 2023. 12 연구실 활동일지</p>
+            <p class="branch-text">2021. 03 ~ 2023. 12 연구실 활동일지</p>
             <div class="contents-leaf">
               <a href="#content2">Project<br />IVIS Lab</a>
             </div>
@@ -96,7 +99,7 @@
           <span class="badge-cpp body-small">C++</span>
         </p>
         <p class="body-medium">
-          TechStack : <span class="badge-react body-small">ReactJS</span>
+          Tech Stack : <span class="badge-react body-small">ReactJS</span>
           <span class="badge-next body-small">NextJS</span>
           <span class="badge-node body-small">NodeJS</span>
         </p>
@@ -108,18 +111,28 @@
           Blog :
           <a href="https://conblog.site">Go!</a>
         </p>
+        <p class="body-medium m-b-0">
+          Education
+          <blockquote>
+            <p class="contents">
+              [18.03 ~ 24.02] Changwon National University, 경남 창원대 정보통신공학과 졸업
+            </p>
+            <p class="contents">[23.07 ~ 23.08] HMG Softeer BootCamp 2nd, 현대 소프티어 2기 수료
+            </p>
+          </blockquote>
+        </p>
         <hr />
         <p>
           안녕하세요! 프론트엔드 개발자(FE) 박병권입니다. 제 포트폴리오 사이트에
           방문해주셔서 감사합니다.
         </p>
         <p>
-          제가 경험했던 프로젝트 중 가장 기억남는 프로젝트를 소개하려합니다!
+          제가 경험했던 프로젝트 중 가장 기억에 남는 프로젝트를 소개하려합니다!
         </p>
 
         <div class="right-box">
           <a href="#content2"
-            ><i class="fa-solid fa-chevron-right fa-10x"></i
+            ><i class="fa-solid fa-chevron-right fa-5x"></i
           ></a>
         </div>
       </section>
@@ -127,16 +140,66 @@
       <!-- content 2 : Project - IVIS Lab -->
       <section id="content2">
         <a href="#main"><i class="fa-solid fa-house fa-2x"></i></a>
-        <h1>프로젝트 2</h1>
-        <p>내용 2</p>
+        <h1 class="title">IVIS Lab, 정보시각화연구실</h1>
+        <p class="body-medium m-b-0">
+          Activities
+          <blockquote>
+            <p class="contents">
+              2021 SW창의캠프 해커톤:
+              <a class="badge-hot" href="https://ivislab.notion.site/2021-SW-dcffca00478e4fc3bf900b12d918e6da?pvs=4">Link</a>
+              - 프로그래밍을 할 줄 모르던 때 연구실 동료와 함께 참가한 캠프식 해커톤, 처음으로 코딩을 접하게 되었습니다.
+            </p>
+            <p class="contents">
+              임베디드 OS개발 프로젝트
+              <a class="badge-hot" href="https://just-soap-bae.notion.site/OS-17ee7dd6641c4ce6b60d685e5e35c8be?pvs=4">Link</a>
+              - 당시 CS지식이 부족해 책을 이해하는 데 힘이 들었습니다. 이 책의 가장 큰 재미는 C printf 함수 구현이였습니다.
+            </p>
+            <p class="contents">
+              창업유망팀 300 플라워드 프로젝트 백엔드 개발
+              <a class="badge-hot" href="https://ivislab.notion.site/7968af4c161843a7aff2f08d3a5dcce4?pvs=4">Link</a>
+              - 창업동아리로 시작하여 플라워드 라는 플랫폼을 기획/제작 하였습니다. 처음으로 Node.js에 대해서, 그리고 서비스를 개발하였습니다.
+            </p>
+            <p class="contents">
+              2022 VanillaJS, React, NodeJS, Algorithm 스터디
+              <a class="badge-hot" href="https://ivislab.notion.site/2022-2-3d78bb0230f84c57a35b2ddf3c968b1d">Link</a>
+              - 2022년, 연구실장이 되어 총 4개의 스터디를 진행하여 스펙업을 이루었습니다.
+              <blockquote>
+                  - NodeJS 스터디 Git
+                  <a class="badge-hot" href="https://github.com/startartart/nodeStudy">Link</a>
+                  , ReactJS 스터디 Git
+                  <a class="badge-hot" href="https://github.com/startartart/reactStudy">Link</a>
+              </blockquote>
+            </p>
+            <p class="contents">
+              IVIS 신입부원 모집 페이지, 프론트엔드 개발
+              <a class="badge-hot" href="https://ivis.dev/register">Link</a>
+              - 2023년, 신입부원 모집을 위해서 연구실 동료와 개발하였습니다. 처음으로, 팀 협업을 경험한 프로젝트입니다.
+              <blockquote>
+                  - IVIS-FE Git
+                  <a class="badge-hot" href="https://github.com/startartart/ivis_front">Link</a>
+              </blockquote>
+            </p>
+            <p class="contents">
+              4th PathHack, 패스해커톤 기획/프론트엔드 개발
+              <a class="badge-hot" href="https://ivislab.notion.site/4th-PathHack-0a627b62eaf5414e8d91d5e22f16617d?pvs=4">Link</a>
+              - 새로운 연구실 동료와 참여한 무박 2일 해커톤으로, 이때부터 본격적으로 프론트엔드 개발을 시작하였습니다.
+            </p>
+            <p class="contents">
+              자바스크립트 스터디 발표
+              <a class="badge-hot" href="https://speckle-iris-164.notion.site/b8ec2d56ca8348d59a8e888a5a0b5a42?pvs=4">Link</a>
+              - 연구실 후배들을 위해 단기로 자바스크립트 스터디를 개설하여 가르쳐주는 방식으로 스터디를 진행하였습니다.
+            </p>
+          </blockquote>
+          
+        </p>
         <div class="left-box">
           <a href="#content1"
-            ><i class="fa-solid fa-chevron-left fa-10x"></i
+            ><i class="fa-solid fa-chevron-left fa-5x"></i
           ></a>
         </div>
         <div class="right-box">
           <a href="#content3"
-            ><i class="fa-solid fa-chevron-right fa-10x"></i
+            ><i class="fa-solid fa-chevron-right fa-5x"></i
           ></a>
         </div>
       </section>
@@ -144,16 +207,106 @@
       <!-- content 3 : Project - BoardGame -->
       <section id="content3">
         <a href="#main"><i class="fa-solid fa-house fa-2x"></i></a>
-        <h1>프로젝트 3</h1>
-        <p>내용 3</p>
+        <h1 class="title">BoardGame, 감정기반 온라인 보드게임 팀 프로젝트</h1>
+        <div class="div-flex">
+          <div class="body-medium m-b-0">
+              Link
+            <blockquote>
+              <p class="contents">
+                PPT 발표 자료 :
+                <a class="badge-hot" href="https://just-soap-bae.notion.site/PPT-0ce3fb81fbab49c9a1e55d653052022b?pvs=4">Link</a>
+              </p>
+              <p class="contents">
+                boardgame_capstone_ivis Git :
+                <a class="badge-hot" href="https://github.com/startartart/boardgame_capstone_ivis">Link</a>
+              </p>
+              <p class="contents">
+                boardgame_capstone_ivis deploy :
+                <a class="badge-hot" href="https://capstone.ivis.dev/">Link</a>
+              </p>
+            </blockquote>
+          </div>
+          <div class="body-medium m-b-0">
+            Tech
+            <blockquote>
+              <p class="body-small">
+                Language :
+                <span class="badge-js body-small">JavaScript</span> 
+              </p>
+              <p class="body-small">
+                Lib :
+                <span class="badge-react contents">React</span><span class="contents">, Socket.io,</span>
+                <span class="contents">react-router-dom,</span>
+                <span class="contents">axios,</span>
+                <span class="contents">styled-components,</span>
+                <span class="contents">face-api ...</span>
+              </p>
+
+            </blockquote>
+          </div>
+        </div>
+        <p class="body-medium m-b-0">
+          Introduce
+          <blockquote>
+            <p>온라인 보드게임의 한계를 극복하기 위해 '감정 확인' 이라는 시스템을 도입하여, 사용자의 카메라를 통해 감정을 분석해 이모지 형태로 보여지게 됩니다.</p>
+            <p>데스크탑 환경 뿐만 아니라 모바일 환경에서 사용할 수 있도록 반응형으로 디자인하였으며, 클라이언트와 서버 간 지속적인 통신을 위해 socket.io 라이브러리를 사용하였습니다.</p>
+            <p>사용자와 사용자끼리 매칭할 수 있는 멀티플레이 및 AI와 대전할 수 있는 싱글플레이를 지원합니다.</p>
+            <p>구현된 게임은 조커뽑기, 동물 포커(by 바퀴벌레 포커) 두 종류가 있습니다.</p>
+            <hr>
+            <ol>
+              <li>CI/CD, 프론트엔드 블록도
+                <blockquote class="block-flex">
+                  <span class="img-box">
+                    <img src="./assets/images/project-boardgame/project-boardgame-cicd.png"/>
+                    <p class="m-0">CI/CD</p>
+                  </span>
+                  <span class="img-box">
+                    <img src="./assets/images/project-boardgame/project-boardgame-front-block.png"/>
+                    <p class="m-0">프론트엔드 블록도</p>
+                  </span>  
+                </blockquote>
+              </li>
+              <li>게임 흐름도 및 소켓통신 네이밍
+                <blockquote class="block-flex">
+                  <span class="img-box">
+                    <img class="img-125" src="./assets/images/project-boardgame/project-boardgame-flow.png"/>
+                    <p class="m-0">방 개설, 입장, 게임 시작 flow</p>
+                  </span>
+                </blockquote>
+              </li>
+              <li>카메라 모듈을 통해, 감정을 측정하여(faceapi) background color를 자동으로 바꾸는 기능
+                <blockquote class="block-flex">
+                  <span class="img-box">
+                    <img class="img-75" src="./assets/images/project-boardgame/project-boardgame-angry-main.png"/>
+                    <p class="m-0">화난 감정의 경우</p>
+                  </span>
+                  <span class="img-box">
+                    <img class="img-75" src="./assets/images/project-boardgame/project-boardgame-default-main.png"/>
+                    <p class="m-0">무표정의 경우</p>
+                  </span>  
+                </blockquote>
+              </li>
+              
+              <li>모바일 디바이스 웹앱 환경에서 Media API getUserMedia를 로컬환경에서 호출하려할 때 벌어지는 문제 및 해결
+                <p>- 데스크탑 로컬 환경에서는 정상적으로 구동이 된다.</p>
+                <p>- 그러나 모바일 환경에선 로컬호스트가 아니기 때문(ip를 타고 들어가기 때문) Https 즉, SSL 인증서를 받아야한다.</p>
+                <p>- chrome 리모트 디버깅 툴을 사용하여 데스크탑 환경에서의 제어를 모바일과 연동시킨다. (8080 port -> 3000 으로 원격제어)</p>
+                <p>- 모바일 디바이스에서 카메라를 제어할 수 있게 된다.</p>
+              </li>
+            </ol>
+          </blockquote>
+        </p>
+       
+        
+
         <div class="left-box">
           <a href="#content2"
-            ><i class="fa-solid fa-chevron-left fa-10x"></i
+            ><i class="fa-solid fa-chevron-left fa-5x"></i
           ></a>
         </div>
         <div class="right-box">
           <a href="#content4"
-            ><i class="fa-solid fa-chevron-right fa-10x"></i
+            ><i class="fa-solid fa-chevron-right fa-5x"></i
           ></a>
         </div>
       </section>
@@ -165,12 +318,12 @@
         <p>내용 4</p>
         <div class="left-box">
           <a href="#content3"
-            ><i class="fa-solid fa-chevron-left fa-10x"></i
+            ><i class="fa-solid fa-chevron-left fa-5x"></i
           ></a>
         </div>
         <div class="right-box">
           <a href="#content5"
-            ><i class="fa-solid fa-chevron-right fa-10x"></i
+            ><i class="fa-solid fa-chevron-right fa-5x"></i
           ></a>
         </div>
       </section>
@@ -182,10 +335,13 @@
         <p>내용 5</p>
         <div class="left-box">
           <a href="#content4"
-            ><i class="fa-solid fa-chevron-left fa-10x"></i
+            ><i class="fa-solid fa-chevron-left fa-5x"></i
           ></a>
         </div>
       </section>
     </div>
+
+    <!-- footer -->
+    <footer>footer</footer>
   </body>
 </html>
