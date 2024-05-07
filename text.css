@@ -24,6 +24,10 @@
   font-size: 20px;
 }
 
+.contents-default {
+    font-size: 16px;
+}
+
 .badge-js {
   background-color: #f0db4f;
   color: #323330;
